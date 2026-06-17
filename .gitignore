@@ -1,0 +1,159 @@
+# ============================================================
+#  .gitignore — Data Science & ML Learning Journey
+#  Dhanraj Deshmukh | Celebal Technologies CEI 2026
+# ============================================================
+
+# ── Python ──────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.so
+
+# ── Virtual Environments ────────────────────────────────────
+venv/
+env/
+.env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ── Jupyter Notebook ────────────────────────────────────────
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# ── Distribution / Packaging ────────────────────────────────
+dist/
+build/
+*.egg-info/
+*.egg
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+
+# ── Testing & Coverage ──────────────────────────────────────
+.tox/
+.nox/
+.cache/
+.pytest_cache/
+.coverage
+*.cover
+htmlcov/
+coverage.xml
+nosetests.xml
+test-results/
+
+# ── Type Checking ───────────────────────────────────────────
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+
+# ── Large / Binary Data Files ───────────────────────────────
+# Uncomment lines if you store raw data locally and don't want it on GitHub.
+# Large CSVs, Excel, databases, and model binaries can bloat the repo.
+*.csv
+# *.xlsx            # Keep commented out if you want to push small Excel files
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.joblib
+*.db
+*.sqlite
+*.sqlite3
+
+# Allow small reference datasets explicitly (override above rules):
+# !week-01/data/sample.csv
+
+# ── Model Artifacts ─────────────────────────────────────────
+*.model
+*.pt
+*.pth
+*.onnx
+saved_models/
+checkpoints/
+
+# ── Logs & Profiling ────────────────────────────────────────
+*.log
+logs/
+*.prof
+profile_output/
+
+# ── Environment / Secrets ───────────────────────────────────
+.env
+.env.*
+!.env.example
+secrets.yaml
+config/secrets/
+credentials.json
+*.pem
+*.key
+
+# ── OS Generated ────────────────────────────────────────────
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+*~
+
+# ── IDEs & Editors ──────────────────────────────────────────
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm / JetBrains
+.idea/
+*.iml
+*.iws
+
+# Spyder
+.spyderproject.proj
+.spyproject
+
+# Rope
+.ropeproject
+
+# ── Documentation Builds ────────────────────────────────────
+docs/_build/
+site/
+.mkdocs-cache/
+
+# ── Internship / Personal Documents ─────────────────────────
+# Exclude personal/confidential files that should not be on GitHub
+*.pdf
+*.mp4
+*.png
+!week-*/data/*.png        # Allow viz outputs inside week data folders
+CEI_Badge.png
+CEI_GIF.mp4
+CEI_User_Guide.pdf
+Dhanraj's_Offer_letter.pdf
+Guideline_CEI_2026.pdf
+Instructions_For_LinkedIn.pdf
+DS\ Assignment\ Instructions*.xlsx
+email.txt
+linkedin\ profilr\ pic/
+
+# ── Miscellaneous ───────────────────────────────────────────
+*.bak
+*.swp
+*.tmp
+*.orig
+.DS_Store
+.hypothesis/
