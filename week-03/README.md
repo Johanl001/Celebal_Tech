@@ -1,8 +1,10 @@
 🧠 Customer Intelligence System — Clustering + Classification + Ensemble Learning
+
 Week 3 Assignment | Data Science Internship
+
 Author: Dhanraj Deshnukh
 
-📌 Overview
+📌 Overview : 
 This notebook builds a complete, production-style Machine Learning pipeline that turns an **unsupervised** problem into an end-to-end **Customer Intelligence System**. It applies the industry-standard *cluster-then-classify* pattern: entities are first segmented using unsupervised clustering (K-Means, DBSCAN), the resulting segments are profiled and named in business-readable terms, and supervised classifiers (Random Forest, XGBoost) plus a soft-voting ensemble are then trained to predict segment membership for new, unseen entities — without needing to re-run clustering on the whole dataset every time.
 
 The pipeline is built on country-level socio-economic data as a stand-in for customer data (same features, different labels — `country` → `customer_id`, GDP/health/income → behavioral or spend features), so the methodology transfers directly to a real CRM use case.

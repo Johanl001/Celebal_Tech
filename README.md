@@ -59,8 +59,8 @@ Each week covers a focused set of topics, combining theory with hands-on Python 
 | Week | Topics | Status |
 |:----:|:--------|:------:|
 | [Week 1](./week-01/) | Statistics, Probability & Linear Algebra Foundations | ✅ Completed |
-| [Week 2](./week-02/) | Data Preprocessing & Exploratory Data Analysis | ⏳ In Progress |
-| [Week 3](./week-03/) | Feature Engineering & Data Transformation | 🔒 Pending |
+| [Week 2](./week-02/) | Data Preprocessing & Exploratory Data Analysis | ✅ Completed |
+| [Week 3](./week-03/) | Feature Engineering & Data Transformation | ✅ Completed |
 | [Week 4](./week-04/) | Machine Learning Fundamentals | 🔒 Pending |
 | [Week 5](./week-05/) | Model Evaluation & Validation | 🔒 Pending |
 | [Week 6](./week-06/) | Advanced Machine Learning Concepts | 🔒 Pending |
