@@ -63,7 +63,7 @@ Each week covers a focused set of topics, combining theory with hands-on Python 
 | [Week 3](./week-03/) | Feature Engineering & Data Transformation | ✅ Completed |
 | [Week 4](./week-04/) | Machine Learning Fundamentals | ✅ Completed |
 | [Week 5](./week-05/) | Model Evaluation & Validation | ✅ Completed |
-| [Week 6](./week-06/) | Advanced Machine Learning Concepts | 🔒 Pending |
+| [Week 6](./week-06/) | Advanced Machine Learning Concepts | ✅ Completed |
 | [Week 7](./week-07/) | Model Monitoring & Deployment Concepts | 🔒 Pending |
 | [Week 8](./week-08/) | Capstone Project & Final Evaluation | 🔒 Pending |
 
