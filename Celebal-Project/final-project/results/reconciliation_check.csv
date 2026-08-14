@@ -1,0 +1,4 @@
+metric,value
+SMAPE_pre_reconciliation,11.29605725926594
+SMAPE_post_reconciliation,1.6709229548379914
+coherence_max_diff,0.0

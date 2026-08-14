@@ -1,0 +1,6 @@
+tier,SMAPE_mean,WAPE_mean,cold_start_smape,notes
+Tier1_LightGBM,11.90316372294752,10.380382538316917,,"3-fold rolling-origin CV, all 500 series"
+Tier2_NHITS_or_Naive,21.882401693173236,19.900144350792463,,"3-fold CV, 50 series subset (store=1)"
+Tier3_Chronos_or_ETS,13.816174999451512,13.735310011364184,22.935250663026366,50 series; cold-start on 30-day truncation
+Ensemble_Weighted,11.978849468768717,10.74399968346458,,Inverse-error weights on validation SMAPE
+Ensemble_Routed,31.415338511211065,27.46068561928126,,"Tier3 for cold-start (<90d history), blend T1+T2 otherwise"
